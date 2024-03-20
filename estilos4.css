@@ -1,0 +1,21 @@
+body {
+	background-image: url(img/12.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+	background-size: cover;
+    background-position: center;
+}
+header{
+    text-align: center;
+    color: black;
+}
+nav ul li{
+    text-align: center;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}

@@ -1,0 +1,103 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+header nav {
+	width: 90%;
+	max-width: 1000px;
+	margin-top: 0px;
+	margin: 20px auto;
+	background: skyblue;
+	border-radius: 50px;
+	
+}
+.menu_bar {
+	display: none; 
+	
+}
+header nav ul {
+	overflow: hidden; 
+	list-style: none;
+	
+	
+}
+header nav ul li {
+	float: left;
+	
+}
+header nav ul li a {
+	color: black;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li span {
+	margin-right: 10px;
+}
+header nav ul li a:hover {
+	background: white;
+	border-radius: 50px;
+}
+ section {
+ 	padding: 20px;
+ }
+ @media screen and (max-width: 900px) {
+	header nav {
+		width: 50%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: absolute; 
+		border-radius: 0px;
+		z-index: 8;
+	}
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid white;
+	}
+	.menu_bar {
+		display: block;
+		width: 100%;
+		background: skyblue; 
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		background: skyblue;
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 40px;
+	}
+}
+footer{
+	text-align: center;
+	background-color: aquamarine;
+	
+
+}
+footer ul li{
+	display: inline-flex;
+	text-decoration: none;
+	padding: 15px;
+	
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
+	
+}
